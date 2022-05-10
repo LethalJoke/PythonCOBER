@@ -10,6 +10,9 @@ class PythonCoberTests(unittest.TestCase):
     def test_when_number_is_not_divisible_by_three_and_not_five_should_print_co(self):
         self.assertEqual(cober_from_number_to_string(3), 'co', "Should be 'co'")
 
+    def test_when_number_is_not_divisible_by_five_and_not_three_should_print_ber(self):
+        self.assertEqual(cober_from_number_to_string(5), 'ber', "Should be 'ber'")
+
 
 if __name__ == '__main__':
     unittest.main()
