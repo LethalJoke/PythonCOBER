@@ -17,10 +17,10 @@ Use in the root folder :
 
 ```shell
   # usage
-  python python_cober list_of_numbers
+  python -m python_cober list_of_numbers
   
   # example
-  python python_cober 1 3 5 -15 36 93 70 55 45 -99 117 -971
+  python -m python_cober 1 3 5 -15 36 93 70 55 45 -99 117 -971
 ```
 
 ## Test
