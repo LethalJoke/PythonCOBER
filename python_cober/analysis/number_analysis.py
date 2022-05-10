@@ -3,9 +3,9 @@ def cober_from_number_to_string(value):
     return_val = ''
 
     if value % 3 == 0:
-        return_val += 'co'
+        return_val += 'CO'
     if value % 5 == 0:
-        return_val += 'ber'
+        return_val += 'BER'
 
     return str(value) if return_val == '' else return_val
 
