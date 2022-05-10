@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. Install Python 3.8
-2. Pull using:
+2. Clone the repo using:
 
 ```shell
   git clone https://github.com/LethalJoke/PythonCOBER.git
