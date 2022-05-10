@@ -26,6 +26,13 @@ class PythonCoberTests(unittest.TestCase):
         expected_output = ['COBER', 'CO', 'BER', '-7', '653']
         self.assertEqual(expected_output, cober_from_number_list_to_string_list(input_list), "Should be " + str(expected_output))
 
+    def test_when_number_has_an_invalid_value_should_raise_valueerror_exception(self):
+        self.assertRaises(ValueError, cober_from_number_to_string, -1999)
+
+    def test_when_list_contains_number_with_invalid_value_should_raise_valueerror_exception(self):
+        input_list = [-15, -3, -95, -7, 1653]
+        self.assertRaises(ValueError, cober_from_number_list_to_string_list, input_list)
+
 
 if __name__ == '__main__':
     unittest.main()
