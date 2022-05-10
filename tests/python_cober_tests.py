@@ -21,6 +21,11 @@ class PythonCoberTests(unittest.TestCase):
         expected_output = ['1', 'co', 'ber', 'cober', '13']
         self.assertEqual(cober_from_number_list_to_string_list(input_list), expected_output, "Should be " + str(expected_output))
 
+    def test_when_list_with_negative_numbers_used_on_cober_function_should_return_proper_output(self):
+        input_list = [-15, -3, -95, -7, 653]
+        expected_output = ['cober', 'co', 'ber', '-7', '653']
+        self.assertEqual(cober_from_number_list_to_string_list(input_list), expected_output, "Should be " + str(expected_output))
+
 
 if __name__ == '__main__':
     unittest.main()
