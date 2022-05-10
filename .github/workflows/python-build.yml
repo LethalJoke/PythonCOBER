@@ -25,16 +25,12 @@ jobs:
         with:
           name: Windows_python-cober
           path: dist/python-cober.exe
-
       - name: create release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ github.event.head_commit.message }}
-          release_name: ${{ github.event.head_commit.message }}
-          overwrite: true
           body: |
             New Release version
           draft: false
