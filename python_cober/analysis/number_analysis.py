@@ -1,5 +1,4 @@
-MIN_ANALYSED_VALUE = -1000
-MAX_ANALYSED_VALUE = 1000
+from python_cober.utils.constants import *
 
 
 def cober_from_number_to_string(value):
@@ -13,7 +12,7 @@ def cober_from_number_to_string(value):
             cober_from_number_to_string(value) : A COBER string corresponding to that value.
     """
 
-    if value < MIN_ANALYSED_VALUE or value > MAX_ANALYSED_VALUE:
+    if value < MIN_LIST_INT or value > MAX_LIST_INT:
         raise ValueError("The value of one of the list's numbers is either higher than 1000 or lower than -1000")
 
     return_val = ''
