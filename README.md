@@ -26,5 +26,5 @@ Use in the root folder :
 Use in the root folder :
 
 ```shell
-  python -m unittest tests/python_cober_tests.py
+  python -m unittest discover tests
 ```
