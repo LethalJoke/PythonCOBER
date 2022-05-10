@@ -1,4 +1,4 @@
-from python_cober.utils.constants import *
+from utils.constants import MIN_LIST_INT, MAX_LIST_INT
 
 
 def cober_from_number_to_string(value):

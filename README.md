@@ -30,3 +30,17 @@ Use in the root folder :
 ```shell
   python -m unittest discover tests
 ```
+
+## Release
+
+1. Download the latest release [here](https://github.com/LethalJoke/PythonCOBER/releases).
+2. You can use the .exe like the python command. 
+In the folder where you put the executable, run :
+
+```shell
+  # usage
+  ./python_cober.exe list_of_numbers
+  
+  # example
+  ./python_cober.exe 1 3 5 -15 36 93 70 55 45 -99 117 -971
+```
