@@ -1,5 +1,4 @@
-[![Pytest](https://github.com/LethalJoke/PythonCOBER/actions/workflows/python-package.yml/badge.svg)](https://github.com/LethalJoke/PythonCOBER/actions/workflows/python-package.yml)
-
+[![Pytest](https://github.com/LethalJoke/PythonCOBER/actions/workflows/python-testing.yml/badge.svg)](https://github.com/LethalJoke/PythonCOBER/actions/workflows/python-testing.yml)
 # PythonCOBER
 
 ## Getting Started
